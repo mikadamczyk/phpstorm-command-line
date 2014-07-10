@@ -53,4 +53,8 @@
         <name>push origin</name>
         <params>branch_name[=null]</params>
     </command>
+    <command>
+        <name>tag</name>
+        <params>tag_name</params>
+    </command>    
 </framework>
