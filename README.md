@@ -16,4 +16,9 @@ Command Line Tools in PhpStorm
 -------------
 [Blog about Command Line Tools in PhpStorm ](http://blog.jetbrains.com/phpstorm/2013/07/command-line-tools-in-phpstorm/)
 
-[contribution guidelines](http://docs.angularjs.org/misc/contribute).
+
+JetBrains Developer Community - Command Line Tools Support
+-------------
+[JetBrains Developer Community - Command Line Tools Support ](http://devnet.jetbrains.com/docs/DOC-1230?_ga=1.105900036.680486946.1404718912)
+
+#[contribution guidelines](http://docs.angularjs.org/misc/contribute).#
