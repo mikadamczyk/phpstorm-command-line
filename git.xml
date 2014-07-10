@@ -14,6 +14,7 @@
     </command>
     <command>
         <name>branch</name>
+        <params>branch_name[=null]</params>
     </command>
     <command>
         <name>commit -m</name>
