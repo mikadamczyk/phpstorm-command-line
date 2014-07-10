@@ -1,7 +1,7 @@
 XML configs for command line in PhpStorm
 =========
 
-* executable path /usr/bin/git
+* Executable path /usr/bin/git
 * Help by F2
 
 Git cheat
