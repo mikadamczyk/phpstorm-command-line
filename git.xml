@@ -45,14 +45,33 @@ Revert the last commit. Creates a new commit
     <command>
         <name>revert</name>
         <params>id</params> 
+        <help><![CDATA[
+Revert specific commit. Creates a new commit
+        ]]></help>        
     </command>   
     <command>
         <name>checkout</name>
-        <params>id</params> 
+        <params>id</params>
+        <params>file</params> 
+        <help><![CDATA[
+Revert (checkout) the $id version of a file
+        ]]></help>         
     </command>   
+    <command>
+        <name>checkout</name>
+        <params>id</params>
+        <help><![CDATA[
+Switch to the $id branch
+        ]]></help>        
+    </command>    
     <command>
         <name>merge</name>
         <params>branch_name</params> 
+        <help><![CDATA[
+Merge branch1 into branch2
+<br />git checkout $branch2
+<br />git merge branch1
+        ]]></help>        
     </command>    
     <command>
         <params></params>
