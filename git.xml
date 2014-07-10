@@ -3,11 +3,36 @@
            xsi:noNamespaceSchemaLocation="schemas/frameworkDescriptionVersion1.1.xsd" name="git"
            invoke="C:\Program Files (x86)\Git\bin\git.exe" alias="git" enabled="true" version="1">
     <command>
+        <name>init</name>
+    </command> 
+    <command>
+        <name>clone</name>
+    </command>    
+    <command>
         <name>add</name>
     </command>
     <command>
+        <name>blame</name>
+        <params>file</params>        
+    </command>    
+    <command>
         <name>status</name>
     </command>
+    <command>
+        <name>revert HEAD</name>
+    </command>  
+    <command>
+        <name>revert</name>
+        <params>id</params> 
+    </command>   
+    <command>
+        <name>checkout</name>
+        <params>id</params> 
+    </command>   
+    <command>
+        <name>merge</name>
+        <params>branch_name</params> 
+    </command>    
     <command>
         <params></params>
         <name>log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short</name>
@@ -16,6 +41,10 @@
         <name>branch</name>
         <params>branch_name[=null]</params>
     </command>
+    <command>
+        <name>branch -d</name>
+        <params>branch_name</params>
+    </command>    
     <command>
         <name>commit -m</name>
         <params>"fixed"</params>
